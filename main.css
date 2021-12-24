@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+overflow-x: hidden!important;
+}
+
+#particles-js{
+
+    background-color: brown;
+
+}
+.img1{
+    zoom: 0.4;
+
+    filter: brightness(0.85);
+}
+
+.img2{
+    zoom: 0.6;
+    
+    filter: brightness(0.85);
+}
+
+
+.img1:hover{
+    filter: drop-shadow(8px 8px 10px black);
+    
+}
+.img2:hover{
+    filter: drop-shadow(8px 8px 10px black);
+    
+}
+.img-center:hover{
+    filter: drop-shadow(8px 8px 10px black);
+    
+}
+
+.div1{
+    padding-left: 100px;
+    overflow-x: hidden!important;
+}
+.container-fluid{
+    padding-top: 40px;
+    overflow-x: hidden!important;
+}
+span{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-center{
+    zoom: 0.55;
+    filter: brightness(0.85);
+}
+
+
+
+
+
+
+
+.typed {
+    line-height: 35px;
+    width: 80%;
+    font-size: 150%;
+    text-align: left;
+    font-family: "Courier New", "Lucida Console", monospace;
+    vertical-align: text-bottom;
+}
+
+.typed::after{
+    content: "|";
+    font-size: 150%;
+    line-height: 30px;
+    animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+    from, to { color: transparent }
+    50% { color: rgba(245, 245, 245) }
+}
+
+.logo{
+    zoom: 0.25;
+}
+@media only screen and (max-width: 600px) {
+  .text-white{
+      font-size: 24px;
+  }
+  .img1{
+      zoom: 0.25;
+  }
+  .typed{
+      font-size: 20px;
+  }
+  .img-center{
+      zoom: 0.3;
+  }
+  .img2{
+      zoom: 0.4;
+  }
+  .logo{
+    zoom: 0.15;
+}
+
+  
+
+}
