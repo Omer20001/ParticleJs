@@ -1166,7 +1166,7 @@ var pJS = function(tag_id, params){
     if(pJS.particles.number.density.enable){
 
       /* calc area */
-      var area = pJS.canvas.el.width * pJS.canvas.el.height / 1000;
+      var area = pJS.canvas.el.width * pJS.canvas.el.height / 350;
       if(pJS.tmp.retina){
         area = area/(pJS.canvas.pxratio*2);
       }

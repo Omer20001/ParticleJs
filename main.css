@@ -10,48 +10,23 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-overflow-x: hidden!important;
+overflow-x: hidden!
 }
 
 #particles-js{
 
     background-color: brown;
+    height:225vh;
 
 }
-.img1{
-    zoom: 0.4;
 
-    filter: brightness(0.85);
-}
-
-.img2{
-    zoom: 0.6;
-    
-    filter: brightness(0.85);
+.portfolio-img{
+    width: 400px;
+    height: 275px;
 }
 
 
-.img1:hover{
-    filter: drop-shadow(8px 8px 10px black);
-    
-}
-.img2:hover{
-    filter: drop-shadow(8px 8px 10px black);
-    
-}
-.img-center:hover{
-    filter: drop-shadow(8px 8px 10px black);
-    
-}
 
-.div1{
-    padding-left: 100px;
-    overflow-x: hidden!important;
-}
-.container-fluid{
-    padding-top: 40px;
-    overflow-x: hidden!important;
-}
 span{
     color: white;
     font-weight: 700;
@@ -124,3 +99,40 @@ span{
   
 
 }
+ 
+
+@media only screen and (max-width: 600px) {
+.portfolio-img{
+    width: 300px;
+    height: 225px;
+    padding-top: 5%;
+}
+#particles-js{
+
+    background-color: brown;
+    height:325vh;
+
+}
+
+    
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .portfolio-img{
+        width: 300px;
+        height: 225px;
+        padding-top: 5%;
+    }
+        
+      }
+
+      
+  @media only screen and (max-width: 299px) {
+    .portfolio-img{
+        width: 250px;
+        height: 175px;
+
+        margin-top: 30%;
+    }
+          
+      }
